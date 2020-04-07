@@ -1,0 +1,58 @@
+﻿#my-page-content {
+    margin-top: 5px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.square {
+    /* margin: 10px; */
+    border: solid 2px black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#profile-picture {
+    margin: 15px;
+}
+
+#your-settings {
+    border: solid 2px black;
+    margin: 5px;
+}
+
+    #your-settings p {
+        margin-top: 15px;
+        position: relative;
+    }
+
+    /*  YOUR SETTINGS   */
+    #your-settings label {
+        display: inline-block;
+        float: none;
+        clear: left;
+        width: 50%;
+        text-align: left;
+    }
+
+    #your-settings option {
+        display: inline-block;
+        float: right;
+    }
+
+    #your-settings button {
+        display: inline-block;
+        float: right;
+    }
+
+/*  ALIGN LABEL AND INPUT ELEMENTS*/
+#change-info label {
+    display: inline-block;
+    /* float: left;*/
+    width: 240px;
+    text-align: left;
+}
+
+#change-info input {
+    /*   display: inline-block; *
+    float: right; */
+}
